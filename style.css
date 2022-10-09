@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Teko:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.marl {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.marlg {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: Teko;
+}
+
+.hehe {
+    height: 25vh;
+    width: 25vw;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: Teko;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.hehe:hover{
+    background-color: black;
+    color: white;
+}
